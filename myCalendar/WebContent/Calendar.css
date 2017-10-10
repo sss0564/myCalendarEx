@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+.btn-holder {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+#currentDate {
+	margin: 0 20px 0 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.moveBtn {
+	box-shadow :  2px 2px 5px #8c8c8c;
+}
+
+#calendar table thead td {
+	height: 30px;
+	font-weight: bold;
+}
+
+#calendar table td.date-cell {
+	padding: 10px 0 70px 10px;
+}
+
+#calendar table td.sun {
+	color: red;
+}
+
+#calendar table td.sat {
+	color: blue;
+}
+
+#calendar table td.not-this-month {
+	background: #f0f0f0;
+	color: #757575;
+}
+
+#calendar table td.today {
+	background: #e0f8fe;
+	color: #757575;
+}

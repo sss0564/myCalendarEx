@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>달력</title>
+<!-- 참고한 페이지 : http://jsfiddle.net/radlohead/8b44ft0w/ -->
+<!--jQuery-->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet"
+	href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- 달력 jquery와 css import -->
+<script src="Calendar_Original.js"></script>
+<link rel="stylesheet" type="text/css" href="Calendar_Original.css">
+</head>
+<body>
+	<div class='wrap'>
+		<div class='btn-holder'>
+			<button id='btnPrev'>&lt;</button>
+			<span id='currentDate'></span>
+			<button id='btnNext'>&gt;</button>
+		</div>
+		<div id="calendar"></div>
+	</div>
+</body>
+</html>

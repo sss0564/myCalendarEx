@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>달력</title>
+<!-- 참고한 페이지 : http://jsfiddle.net/radlohead/8b44ft0w/
+				https://bootsnipp.com/snippets/j2vqa
+ -->
+<!--  부트스트랩 -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!--jQuery-->
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet"
+	href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+<!-- 달력 jquery와 css import -->
+<script src="Calendar.js"></script>
+<link rel="stylesheet" type="text/css" href="Calendar.css">
+</head>
+<body>
+	<div class="container">
+		<div class="btn-holder">
+			<button class="btn btn-default btn-sm moveBtn" id="btnPrev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			</button>
+			<span id="currentDate"></span>
+			<button class="btn btn-default btn-sm moveBtn" id="btnNext">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			</button>
+		<div align="right">
+		<button class="btn btn-default btn-sm" id="btnToday">오늘</button>
+		</div>
+			<hr/>
+		</div>
+		<div id="calendar"></div>
+	</div>
+</body>
+</html>
